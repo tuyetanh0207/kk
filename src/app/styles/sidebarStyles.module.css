@@ -1,0 +1,27 @@
+.container{
+    background-color:'#E3E7F7';
+    width: 200px;
+    height: 110%;
+    color:#353536;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 13px;
+    position: fixed;
+    left: 0%;
+    padding: 5%
+}
+.upper {
+    margin-bottom: 30%;
+}
+.upper_row {
+    display: flex;
+    margin-bottom: 14px;
+}
+.upper_p, .lower_p {
+    margin-left: 10px;
+
+}
+.lower_p{
+    color: #8E92A4;
+}
