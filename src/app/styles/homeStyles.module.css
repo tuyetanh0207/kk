@@ -1,9 +1,27 @@
 .container{
-    /* background-color: '#FFFFFF'; */
-    padding: 20;
-    padding-top: 5%;
+    background-color: '#FFFFFF';
+
+    display: flex;
+    width: 100vw;
+
+}
+.fakeSidebar {
+    width: 14%;
+    display: block;
 
 }
 .taskContainer{
-    margin-left: 200px;
+    padding-top: 5%;
+    margin-left: 14%;
+   /* // display: flex; */
+    width: 60%;
+    padding-left: 10%;
+}
+.scheduleContainer{
+    margin-left: 84%;
+    display: flex;
+}
+.heading1 {
+    font-size: 2em;
+    width: 30em;
 }

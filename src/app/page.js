@@ -126,10 +126,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Sidebar></Sidebar>
+      <div className={styles.fakeSidebar}></div>
       <div className={styles.taskContainer}>
         {/* today tasks */}
-        <div className={styles.container}>
-          <p className={styles.heading1} ></p>
+        <div className={styles.todaycontainer}>
+          <p className={styles.heading1} >Today tasks</p>
           {/* navbar */}
           <div className={styles.navbar}>
             {navbarTitle.map((ele) => 
@@ -155,8 +156,8 @@ export default function Home() {
           </div>
         </div>
         {/* upcoming tasks */}
-        <div className={styles.container}>
-          <p className={styles.heading1} ></p>
+        <div className={styles.upcomingcontainer}>
+          <p className={styles.heading1} >Upcoming tasks</p>
             <div className={styles.horizonalLine}></div>
           {/* grid */}
           <div className={styles.taskGrid}>
